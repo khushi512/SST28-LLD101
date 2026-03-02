@@ -1,0 +1,24 @@
+# Compiled Java files
+*.class
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build directories (if created accidentally)
+out/
+bin/
+target/
