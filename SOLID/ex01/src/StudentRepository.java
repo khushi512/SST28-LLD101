@@ -8,5 +8,5 @@ public interface StudentRepository {
 
     int count();
 
-    List<StudentRecord> findAll();
+    List<StudentRecord> all();
 }

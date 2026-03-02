@@ -12,8 +12,7 @@ public class StudentValidator {
         if (d.name.isBlank()) errors.add("name is required");
         if (d.email.isBlank() || !d.email.contains("@"))
             errors.add("email is invalid");
-        if (d.phone.isBlank() ||
-                !d.phone.chars().allMatch(Character::isDigit))
+        if (d.phone.isBlank() || !d.phone.chars().allMatch(Character::isDigit))
             errors.add("phone is invalid");
         if (!ALLOWED.contains(d.program))
             errors.add("program is invalid");

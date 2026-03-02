@@ -9,7 +9,7 @@ public class FakeDb implements StudentRepository {
     public void save(StudentRecord r) { rows.add(r); }
     public int count() { return rows.size(); }
 
-    public List<StudentRecord> findAll() {
+    public List<StudentRecord> all() {
         return Collections.unmodifiableList(rows);
     }
 }
